@@ -1,0 +1,1 @@
+package ApplicationMVC;public class CalculatorMain {    public static void main(String[] args) {        final CalculatorView calculatorView = new CalculatorView();        final CalculatorModel calculatorModel = new CalculatorModel();        new CalculatorController(calculatorView, calculatorModel);    }}
